@@ -20,11 +20,10 @@
       <plugin>
         <!-- Build an executable JAR -->
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jar-plugin</artifactId>
-        <version>3.0.2</version>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.1</version>
         <configuration>
           <archive>
-            <webXml>src\main\webapp\WEB-INF\web.xml</webXml>
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
