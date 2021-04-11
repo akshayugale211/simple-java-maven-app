@@ -24,6 +24,7 @@
         <version>3.0.2</version>
         <configuration>
           <archive>
+            <webXml>src\main\webapp\WEB-INF\web.xml</webXml>
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
